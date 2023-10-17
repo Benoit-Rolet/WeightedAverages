@@ -1,0 +1,67 @@
+/************
+* Table *
+************/
+
+table {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+td {
+  border : solid 1px rgb(221, 221, 221);
+}
+
+th {
+  font-weight: bold;
+}
+
+.number,
+.numberTitle,
+.weight,
+.weightTitle {
+  text-align: right;
+  width: 100px;
+  padding : 0.3rem 1rem 0.3rem 0;
+}
+
+.plusMinus {
+  padding: 0 0.4rem;
+}
+
+.cellInputNumber,
+.cellInputWeight {
+  text-align: right;
+}
+
+
+/**********
+* Buttons *
+**********/
+
+.plus {
+  background-color: white;
+}
+
+.minus {
+  background-color: #ff3232;
+}
+
+/**********
+* Inputs *
+**********/
+
+input {
+  width: 4rem;
+  text-align: right;
+}
+
+/**********
+* Message *
+**********/
+
+#everyMessages {
+  text-align: center;
+  padding : 1rem;
+  color : red;
+}
